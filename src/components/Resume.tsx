@@ -89,7 +89,7 @@ export default function Resume() {
           <h2 className="subtitle">Nicolas Gomes Guadagno</h2>
           <h1 className="title text-ncls-purple font-bold">Full Stack Developer</h1>
         </section>
-        <section className="technologies flex relative mb-4 overflow-x-hidden">
+        <section className="technologies flex relative mb-4 overflow-x-hidden rounded-full">
           <div className="flex gap-5 animate-scroll hover:animation-paused">
             {infiniteScrollTechTags.map((tech, index) => (
             <div key={index} className="technologies__item flex-shring-0">
@@ -98,7 +98,7 @@ export default function Resume() {
             ))}
           </div>
         </section>
-        <section className="resume flex gap-5">
+        <section className="resume flex flex-col gap-5 md:flex-row">
           <p>Domínio pleno em tecnologias como ReactJS, NextJS e NodeJS. Aperfeiçoando habilidades em Python</p>
           <p>Experiência em aplicações em produção e contato direto com o cliente.</p>
         </section>
