@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Providers } from "./providers";
-import { Inter, Roboto, Roboto_Mono } from "next/font/google";
+import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const robotoMono = Roboto_Mono({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="br" suppressHydrationWarning>
       <body className={robotoMono.className}>
         <div className="flex flex-col w-full 2xl:w-[1080px]">
+        <SpeedInsights />
         <Providers>
           <Header />
           {children}
