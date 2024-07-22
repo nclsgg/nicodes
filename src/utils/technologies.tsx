@@ -1,4 +1,4 @@
-import { SiAuth0, SiDocker, SiExpress, SiGit, SiGnometerminal, SiGo, SiJavascript, SiJsonwebtokens, SiMongodb, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiRedux, SiScrapy, SiStyledcomponents, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiDocker, SiExpress, SiGit, SiGnometerminal, SiGo, SiJavascript, SiJsonwebtokens, SiMongodb, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiReact, SiRedux, SiScrapy, SiStyledcomponents, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { TbBrandOauth } from "react-icons/tb";
 
 interface ITechnologiesInfo {
