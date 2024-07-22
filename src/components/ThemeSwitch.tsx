@@ -17,7 +17,7 @@ export default function ThemeSwitch() {
       width={24}
       height={24}
       sizes='24x24'
-      alt='Loading Ligh/Dark theme switcher'
+      alt='Loading Light/Dark theme switcher'
       priority={false}
       title='Loading Light/Dark Toggle'
     />

@@ -1,7 +1,6 @@
 import { FaReact } from "react-icons/fa"
 import { SiExpress, SiGo, SiJavascript, SiMongodb, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiTailwindcss, SiTypescript } from "react-icons/si"
-import { TbBrandNextjs } from "react-icons/tb"
-import Nicolas from "@/assets/nicolas.png"
+import Nicolas from "../../public/nicolas.png"
 import TechTag from "./TechTag"
 import Image from "next/image"
 
