@@ -1,10 +1,13 @@
 import AboutMe from "@/components/AboutMe";
 import Resume from "@/components/Resume";
+import Separator from "@/components/Separator";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-10 md:gap-0">
+    <main className="flex flex-col gap-10 md:gap-14">
       <Resume />
+      <Separator name="Projetos" />
+      <Separator name="Sobre mim"/>
       <AboutMe />
     </main>
   );

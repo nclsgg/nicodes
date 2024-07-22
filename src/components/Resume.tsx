@@ -83,7 +83,7 @@ export default function Resume() {
   const infiniteScrollTechTags = [...techs, ...techs]
 
   return (
-    <div className="flex flex-col-reverse gap-5 items-center md:flex-row md:justify-between md:items-start md:h-[80vh]">
+    <div className="flex flex-col-reverse gap-5 items-center md:flex-row md:justify-between md:items-start">
       <section className="profile flex flex-col gap-5 w-2/3">
         <section className="flex flex-col">
           <h2 className="subtitle">Nicolas Gomes Guadagno</h2>
