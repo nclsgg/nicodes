@@ -35,6 +35,27 @@ body {
   background: rgb(var(--background-dark));
 }
 
+.projectsSlider {
+  .swiper-button-prev {
+    color: #9370DB;
+  }
+
+  .swiper-button-next {
+    color: #9370DB;
+  }
+
+  .swiper-pagination {
+    .swiper-pagination-bullet-active {
+      background: #9370DB;
+    }
+
+  .swiper-wrapper {
+    padding: 10rem;
+  }
+
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

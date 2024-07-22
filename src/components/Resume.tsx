@@ -5,80 +5,7 @@ import TechTag from "./TechTag"
 import Image from "next/image"
 
 export default function Resume() {
-  const techs = [
-    {
-      name: "React",
-      color: "bg-blue-500",
-      icon: <FaReact />,
-      url: "https://reactjs.org"
-    },
-    {
-      name: "Next.js",
-      color: "bg-gray-900",
-      icon: <SiNextdotjs />,
-      url: "https://nextjs.org"
-    },
-    {
-      name: "TypeScript",
-      color: "bg-blue-700",
-      icon: <SiTypescript />,
-      url: "https://www.typescriptlang.org",
-    },
-    {
-      name: "JavaScript",
-      color: "bg-yellow-400",
-      icon: <SiJavascript />,
-      url: "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
-    },
-    {
-      name: "Tailwind",
-      color: "bg-blue-400",
-      icon: <SiTailwindcss />,
-      url: "https://tailwindcss.com",
-    },
-    {
-      name: "Node.js",
-      color: "bg-green-500",
-      icon: <SiNodedotjs />,
-      url: "https://nodejs.org",
-    },
-    {
-      name: "Express",
-      color: "bg-black",
-      icon: <SiExpress />,
-      url: "https://expressjs.com",
-    },
-    {
-      name: "NestJS",
-      color: "bg-red-500",
-      icon: <SiNestjs />,
-      url: "https://nestjs.com",
-    },
-    {
-      name: "Golang",
-      color: "bg-blue-400",
-      icon: <SiGo />,
-      url: "https://golang.org",
-    },
-    {
-      name: "Python",
-      color: "bg-yellow-500",
-      icon: <SiPython />,
-      url: "https://www.python.org",
-    },
-    {
-      name: "MongoDB",
-      color: "bg-green-500",
-      icon: <SiMongodb />,
-      url: "https://www.mongodb.com",
-    },
-    {
-      name: "PostgreSQL",
-      color: "bg-orange-500",
-      icon: <SiPostgresql />,
-      url: "https://www.postgresql.org",
-    }
-  ]
+  const techs = ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind", "Node.js", "Express", "NestJS", "Golang", "Python", "PostgreSQL", "MongoDB"]
 
   const infiniteScrollTechTags = [...techs, ...techs]
 
@@ -93,13 +20,13 @@ export default function Resume() {
           <div className="flex gap-5 animate-scroll hover:animation-paused">
             {infiniteScrollTechTags.map((tech, index) => (
             <div key={index} className="technologies__item flex-shring-0">
-              <TechTag key={index} name={tech.name} color={tech.color} icon={tech.icon} url={tech.url} />
+              <TechTag key={index} name={tech}/>
             </div>
             ))}
           </div>
         </section>
         <section className="resume flex flex-col gap-5 md:flex-row">
-          <p>Mais de 4 anos de experiência com as tecnologias mais utilizadas do mercado, incluindo React, Golang e NodeJS. Destaco-me pela excelente comunicação e capacidade de aprendizado rápido, sempre buscando inovar e otimizar soluções.</p>
+          <p>Mais de 4 anos de experiência em desenvolvimento de websites, APIs, serviços e scripts, com as tecnologias mais utilizadas do mercado, incluindo React, Golang e NodeJS. Destaco-me pela excelente comunicação e capacidade de aprendizado rápido, sempre buscando inovar e otimizar soluções.</p>
           <p>Experiência em aplicações em produção com grande fluxo de requisições e consumo de dados e contato direto com o cliente.</p>
         </section>
       </section>

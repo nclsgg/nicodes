@@ -15,6 +15,8 @@ const config: Config = {
       },
       colors: {
         'ncls-purple': "#9370DB",
+        'dark-white': "#f5f5f5",
+        'light-black': "#252525"
       },
       backgroundColor: {
         "dark": "#121212"
@@ -63,6 +65,20 @@ const config: Config = {
         }
       });
     },
+  ],
+  safelist: [
+    'bg-blue-500',
+    'bg-gray-900',
+    'bg-blue-700',
+    'bg-yellow-400',
+    'bg-blue-400',
+    'bg-green-500',
+    'bg-black',
+    'bg-red-500',
+    'bg-yellow-500',
+    'bg-orange-500',
+    'bg-pink-500',
+    'bg-purple-500',
   ],
   darkMode: 'class'
 };
