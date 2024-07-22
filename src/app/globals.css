@@ -24,6 +24,12 @@ body {
   padding: 2rem 5rem;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    padding: 2rem 1rem;
+  }
+}
+
 .dark body {
   color: rgb(var(--dark-text-color));
   background: rgb(var(--background-dark));
