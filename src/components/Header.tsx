@@ -8,10 +8,10 @@ export default function Header() {
         <p className="text-3xl font-bold select-none cursor-pointer">&lt;<span className="text-ncls-purple">nicodes</span>&gt;</p>
       </section>
       <section className="flex gap-2 items-center">
-        <a href="https://github.com/nclsgg/" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/nclsgg/" target="_blank" rel="noopener noreferrer" aria-label="Nicolas Gomes Guadagno Github">
           <AiFillGithub className="text-3xl hover:cursor-pointer"/>
         </a>
-        <a href="https://www.linkedin.com/in/nicolasguadagno/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/nicolasguadagno/" target="_blank" rel="noopener noreferrer" aria-label="Nicolas Gomes Guadagno LinkedIn">
           <AiFillLinkedin className="text-3xl hover:cursor-pointer"/>
         </a>
         <ThemeSwitch />
