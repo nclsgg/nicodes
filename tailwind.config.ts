@@ -32,7 +32,7 @@ const config: Config = {
         "inherit": "inherit",
       },
       animation: {
-        "scroll": 'scroll 15s linear infinite',
+        "scroll": 'scroll 20s linear infinite',
       },
       keyframes: {
         "scroll": {
@@ -53,10 +53,10 @@ const config: Config = {
     function ({ addComponents }: { addComponents: Function }) {
       addComponents({
         '.title': {
-          '@apply text-base xl:text-4xl md:text-3xl sm:text-2xl': {}
+          '@apply text-xl xl:text-4xl md:text-3xl sm:text-2xl': {}
         },
         '.subtitle': {
-          '@apply text-sm xl:text-xl md:text-lg sm:text-base': {}
+          '@apply text-sm xl:text-2xl md:text-xl sm:text-lg': {}
         }
       });
     },

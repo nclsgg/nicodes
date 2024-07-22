@@ -87,9 +87,9 @@ export default function Resume() {
       <section className="profile flex flex-col gap-5 w-2/3">
         <section className="flex flex-col">
           <h2 className="subtitle">Nicolas Gomes Guadagno</h2>
-          <h1 className="title text-ncls-purple font-bold">Full Stack<br/>Developer</h1>
+          <h1 className="title text-ncls-purple font-bold">Full Stack Developer</h1>
         </section>
-        <section className="technologies flex max-w-120 relative overflow-x-hidden">
+        <section className="technologies flex relative mb-4 overflow-x-hidden">
           <div className="flex gap-5 animate-scroll hover:animation-paused">
             {infiniteScrollTechTags.map((tech, index) => (
             <div key={index} className="technologies__item flex-shring-0">
