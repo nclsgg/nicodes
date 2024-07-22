@@ -57,6 +57,9 @@ const config: Config = {
         },
         '.subtitle': {
           '@apply text-sm xl:text-2xl md:text-xl sm:text-lg': {}
+        },
+        '.sectionTitle': {
+          '@apply text-xl xl:text-3xl md:text-2xl sm:text-xl': {}
         }
       });
     },

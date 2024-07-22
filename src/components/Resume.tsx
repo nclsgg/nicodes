@@ -83,7 +83,7 @@ export default function Resume() {
   const infiniteScrollTechTags = [...techs, ...techs]
 
   return (
-    <div className="flex flex-col-reverse gap-5 md:flex-row justify-between items-center">
+    <div className="flex flex-col-reverse gap-5 items-center md:flex-row md:justify-between md:items-start md:h-[80vh]">
       <section className="profile flex flex-col gap-5 w-2/3">
         <section className="flex flex-col">
           <h2 className="subtitle">Nicolas Gomes Guadagno</h2>
@@ -99,8 +99,8 @@ export default function Resume() {
           </div>
         </section>
         <section className="resume flex flex-col gap-5 md:flex-row">
-          <p>Domínio pleno em tecnologias como ReactJS, NextJS e NodeJS. Aperfeiçoando habilidades em Python</p>
-          <p>Experiência em aplicações em produção e contato direto com o cliente.</p>
+          <p>Mais de 4 anos de experiência com as tecnologias mais utilizadas do mercado, incluindo React, Golang e NodeJS. Destaco-me pela excelente comunicação e capacidade de aprendizado rápido, sempre buscando inovar e otimizar soluções.</p>
+          <p>Experiência em aplicações em produção com grande fluxo de requisições e consumo de dados e contato direto com o cliente.</p>
         </section>
       </section>
       <section>
