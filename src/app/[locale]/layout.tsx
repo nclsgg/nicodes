@@ -11,7 +11,7 @@ const robotoMono = Roboto_Mono({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Nicolas Gomes Guadagno",
-  description: "Desenvolvedor Full Stack",
+  description: "Full Stack Developer",
 };
 
 export default async function LocaleLayout({

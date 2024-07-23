@@ -1,6 +1,6 @@
 'use client'
 
-import ProjectCard from "../ProjectCard";
+import ProjectCard from "../Card";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

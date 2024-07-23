@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import ProjectCardSkeleton from "./ProjectCardSkeleton";
+import ProjectCardSkeleton from "./Card/Skeleton";
 import { sql } from "@vercel/postgres";
 
 
@@ -17,7 +17,7 @@ export default async function Projects() {
     }
   })
 
-  const DynamicProjectsSlider = dynamic(() => import('./ProjectsSlider'), { 
+  const DynamicProjectsSlider = dynamic(() => import('./Slider'), { 
     loading: () => <><ProjectCardSkeleton/></>,
     ssr: false
   })

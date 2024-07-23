@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TechTag from "./TechTag";
+import TechTag from "../../TechTag";
 
 interface ProjectCardProps {
   name: string,
