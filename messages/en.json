@@ -1,0 +1,24 @@
+{
+  "separator": {
+    "projects": "Projects",
+    "aboutMe": "About me"
+  },
+  "resume": {
+    "hardSkills": "Over 4 years of experience in developing websites, APIs, services, and scripts, with the most widely used technologies in the market, including React, Golang, and NodeJS. I stand out for my excellent communication skills and quick learning ability, always striving to innovate and optimize solutions.",
+    "softSkills": "Experience with production applications handling high request volumes and data consumption, as well as direct client interaction."
+  },
+  "aboutMe": {
+    "development": {
+      "title": "Development",
+      "content": "Throughout my career in development, I have encountered various types of challenges and projects. From web scraping to log management, I have worked with a wide range of languages and frameworks, such as React, Golang, Python, NodeJS, NextJS, and others. For data management, I am knowledgeable in both relational and non-relational databases, including MySQL, PostgreSQL, MongoDB, and Redis for caching data."
+    },
+    "design": {
+      "title": "Design",
+      "content": "Due to my previous experience as a designer, reproducing pixel-perfect interfaces is one of my greatest strengths as a front-end developer. As a developer, I understand that my clients may not come from a technical background, so I strive to convey professionalism through the visual representation."
+    },
+    "communication": {
+      "title": "Communication",
+      "content": "One of my greatest learnings in my career has been communication. Whether it's speaking with other developers, presenting what the team has accomplished, or negotiating project delivery estimates, communication is key to a good work environment."
+    }
+  }
+}

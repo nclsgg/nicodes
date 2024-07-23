@@ -1,8 +1,12 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin();
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['via.placeholder.com', 'i.ibb.co']
-  }
+    domains: ['i.ibb.co']
+  },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

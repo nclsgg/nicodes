@@ -3,8 +3,10 @@ import { SiExpress, SiGo, SiJavascript, SiMongodb, SiNestjs, SiNextdotjs, SiNode
 import Nicolas from "../../public/nicolas.png"
 import TechTag from "./TechTag"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export default function Resume() {
+  const t = useTranslations("resume")
   const techs = ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind", "Node.js", "Express", "NestJS", "Golang", "Python", "PostgreSQL", "MongoDB"]
 
   const infiniteScrollTechTags = [...techs, ...techs]
@@ -26,8 +28,8 @@ export default function Resume() {
           </div>
         </section>
         <section className="resume flex flex-col gap-5 md:flex-row">
-          <p>Mais de 4 anos de experiência em desenvolvimento de websites, APIs, serviços e scripts, com as tecnologias mais utilizadas do mercado, incluindo React, Golang e NodeJS. Destaco-me pela excelente comunicação e capacidade de aprendizado rápido, sempre buscando inovar e otimizar soluções.</p>
-          <p>Experiência em aplicações em produção com grande fluxo de requisições e consumo de dados e contato direto com o cliente.</p>
+          <p>{t('hardSkills')}</p>
+          <p>{t('softSkills')}</p>
         </section>
       </section>
       <section>
