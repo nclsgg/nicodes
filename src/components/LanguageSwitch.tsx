@@ -26,10 +26,10 @@ export default function LanguageSwitch() {
         onChange={onSelectChange}
         disabled={isPending}
       >
-        <option value="pt" className="text-black">
+        <option aria-label="Português" value="pt" className="text-black">
           PT
         </option>
-        <option value="en" className="text-black">
+        <option aria-label="English" value="en" className="text-black">
           EN
         </option>
       </select>

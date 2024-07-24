@@ -11,10 +11,10 @@ export default function TechTag({ name, size = 'sm' }: TechTagProps) {
     <>
       {url === '#' ? (
         <div
-          className={`flex items-center gap-2 ${color} px-2 py-1 rounded-full text-white`}
+          className={`flex items-center gap-2 ${color} bg-opacity-70 px-2 py-1 rounded-full text-white`}
         >
           {icon}
-          <span className={`text-${size} drop-shadow-text`}>{name}</span>
+          <span className={`text-${size}`}>{name}</span>
         </div>
       ) : (
         <a
@@ -24,10 +24,10 @@ export default function TechTag({ name, size = 'sm' }: TechTagProps) {
           className="hover:opacity-80 w-full"
         >
           <div
-            className={`flex w-full items-center gap-2 ${color} px-2 py-1 rounded-full text-white`}
+            className={`flex w-full items-center gap-2 ${color} bg-opacity-70 px-2 py-1 rounded-full text-white`}
           >
-            <div className="drop-shadow-text">{icon}</div>
-            <span className={`text-${size} drop-shadow-text`}>{name}</span>
+            <div className="">{icon}</div>
+            <span className={`text-${size}`}>{name}</span>
           </div>
         </a>
       )}
