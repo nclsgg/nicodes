@@ -20,7 +20,7 @@ export default function ContactForm() {
 
   return (
     <div className="flex items-center justify-center">
-      <form onSubmit={onSubmit} className="flex flex-col gap-6 w-2/3 md:w-full">
+      <form onSubmit={onSubmit} className="flex flex-col w-full gap-6">
         <div className="input-div">
           <input
             {...register('name', { required: true })}

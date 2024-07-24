@@ -34,14 +34,23 @@ const config: Config = {
         "inherit": "inherit",
       },
       animation: {
-        "scroll": 'scroll 20s linear infinite',
+        "scroll-h": 'scroll-h 22s linear infinite',
+        "scroll-v": 'scroll-v 10s linear infinite',
       },
       keyframes: {
-        "scroll": {
+        "scroll-h": {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
         },
+        "scroll-v": {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-100%)' },
+          '100%': { transform: 'translateY(-200%)' },
+        },
       },
+      dropShadow: {
+        "text": "0 1.2px 1.2px rgba(0, 0, 0, 0.8)",
+      }
     },
   },
   plugins: [
@@ -69,6 +78,7 @@ const config: Config = {
   safelist: [
     'bg-blue-500',
     'bg-gray-900',
+    'bg-gray-700',
     'bg-blue-700',
     'bg-yellow-400',
     'bg-blue-400',

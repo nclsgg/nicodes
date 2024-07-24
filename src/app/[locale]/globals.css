@@ -35,25 +35,29 @@ body {
   background: rgb(var(--background-dark));
 }
 
-.projectsSlider {
-  .swiper-button-prev {
-    color: #9370DB;
-  }
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
 
-  .swiper-button-next {
-    color: #9370DB;
-  }
+.swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
 
-  .swiper-pagination {
-    .swiper-pagination-bullet-active {
-      background: #9370DB;
-    }
+.dark .swiper-pagination .swiper-pagination-bullet {
+  background: white;
+}
 
-  .swiper-wrapper {
-    padding: 10rem;
-  }
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #9370DB;
+}
 
-  }
+.dark .swiper-pagination .swiper-pagination-bullet-active {
+  background: #9370DB;
 }
 
 @layer utilities {

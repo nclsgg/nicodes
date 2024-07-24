@@ -17,7 +17,7 @@ export default function ProjectCard({
   image,
 }: ProjectCardProps) {
   return (
-    <div className="px-3 py-5">
+    <div className="flex w-full px-3 py-5">
       <a
         href={url}
         target="_blank"

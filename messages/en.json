@@ -2,7 +2,8 @@
   "separator": {
     "projects": "Projects",
     "aboutMe": "About me",
-    "contactMe": "Contacts"
+    "contactMe": "Contacts",
+    "technologies": "Technologies"
   },
   "resume": {
     "hardSkills": "Over 4 years of experience in developing websites, APIs, services, and scripts, with the most widely used technologies in the market, including React, Golang, and NodeJS. I stand out for my excellent communication skills and quick learning ability, always striving to innovate and optimize solutions.",
@@ -36,5 +37,9 @@
         "message": "Please enter a message."
       }
     }
+  },
+  "technologies": {
+    "title": "Technologies",
+    "content": "Here are some of the technologies I have experience with and can help you implement in your project."
   }
 }

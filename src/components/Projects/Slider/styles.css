@@ -1,7 +1,6 @@
 .projects-swiper {
   display: flex;
   flex-direction: column;
-  width: 66.66%;
 }
 
 @media screen and (min-width: 892px) {
@@ -28,29 +27,4 @@
   .projects-swiper .swiper-button-next {
     display: block;
   }
-}
-
-.projects-swiper .projects-swiper-pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 1rem;
-}
-
-.projects-swiper .projects-swiper-pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-}
-
-.dark .projects-swiper .projects-swiper-pagination .swiper-pagination-bullet {
-  background: white;
-}
-
-.projects-swiper .projects-swiper-pagination .swiper-pagination-bullet-active {
-  background: #9370DB;
-}
-
-.dark .projects-swiper .projects-swiper-pagination .swiper-pagination-bullet-active {
-  background: #9370DB;
 }

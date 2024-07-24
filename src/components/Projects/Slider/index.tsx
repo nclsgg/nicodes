@@ -24,7 +24,7 @@ export default function ProjectsSlider({ projects }: ProjectsSliderProps) {
   return (
     <Swiper
       spaceBetween={30}
-      pagination={{ el: '.projects-swiper-pagination', clickable: true }}
+      pagination={{ el: '.swiper-pagination', clickable: true }}
       navigation={true}
       modules={[Pagination, Navigation]}
       breakpoints={{
@@ -44,7 +44,7 @@ export default function ProjectsSlider({ projects }: ProjectsSliderProps) {
       className="projects-swiper flex w-full"
     >
       {projects.map((project, index) => (
-        <SwiperSlide key={index} className="flex w-2/3">
+        <SwiperSlide key={index} className="flex w-full">
           <ProjectCard
             name={project.name}
             description={project.description}
@@ -54,7 +54,7 @@ export default function ProjectsSlider({ projects }: ProjectsSliderProps) {
           />
         </SwiperSlide>
       ))}
-      <div className="projects-swiper-pagination"></div>
+      <div className="swiper-pagination"></div>
     </Swiper>
   );
 }

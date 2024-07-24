@@ -5,7 +5,7 @@ export default function AboutMe() {
 
   return (
     <div className="flex flex-col justify-center items-center gap-10 md:flex-row">
-      <section className="flex flex-col gap-5 w-2/3 md:w-full">
+      <section className="flex flex-col gap-5">
         <div className="about-me__development">
           <h2 className="sectionTitle font-bold text-ncls-purple">
             {t('development.title')}

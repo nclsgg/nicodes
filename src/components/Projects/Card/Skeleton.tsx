@@ -1,6 +1,6 @@
 export default function ProjectCardSkeleton() {
   return (
-    <div className="flex flex-col w-2/3 md:w-full animate-pulse">
+    <div className="flex flex-col w-full animate-pulse">
       <div className="flex flex-col w-full md:w-1/2 animate-pulse">
         <div className="w-full h-96 bg-gray-300 dark:bg-gray-700 rounded"></div>
         <section className="bg-dark-white dark:bg-light-black p-2 h-fit">
