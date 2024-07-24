@@ -1,0 +1,27 @@
+.input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input-error {
+  border-color: lightcoral;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #9370DB;
+}
+
+.input-error-span {
+  color: lightcoral;
+  font-size: 0.8rem;
+}

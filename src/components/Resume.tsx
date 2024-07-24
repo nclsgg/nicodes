@@ -1,29 +1,42 @@
-import { FaReact } from "react-icons/fa"
-import { SiExpress, SiGo, SiJavascript, SiMongodb, SiNestjs, SiNextdotjs, SiNodedotjs, SiPostgresql, SiPython, SiTailwindcss, SiTypescript } from "react-icons/si"
-import Nicolas from "../../public/nicolas.png"
-import TechTag from "./TechTag"
-import Image from "next/image"
-import { useTranslations } from "next-intl"
+import Nicolas from '../../public/nicolas.png';
+import TechTag from './TechTag';
+import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export default function Resume() {
-  const t = useTranslations("resume")
-  const techs = ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind", "Node.js", "Express", "NestJS", "Golang", "Python", "PostgreSQL", "MongoDB"]
+  const t = useTranslations('resume');
+  const techs = [
+    'React',
+    'Next.js',
+    'TypeScript',
+    'JavaScript',
+    'Tailwind',
+    'Node.js',
+    'Express',
+    'NestJS',
+    'Golang',
+    'Python',
+    'PostgreSQL',
+    'MongoDB',
+  ];
 
-  const infiniteScrollTechTags = [...techs, ...techs]
+  const infiniteScrollTechTags = [...techs, ...techs];
 
   return (
     <div className="flex flex-col-reverse gap-5 items-center md:flex-row md:justify-between md:items-start">
       <section className="profile flex flex-col gap-5 w-2/3">
         <section className="flex flex-col">
           <h2 className="subtitle">Nicolas Gomes Guadagno</h2>
-          <h1 className="title text-ncls-purple font-bold">Full Stack Developer</h1>
+          <h1 className="title text-ncls-purple font-bold">
+            Full Stack Developer
+          </h1>
         </section>
         <section className="technologies flex relative mb-4 overflow-x-hidden rounded-full">
           <div className="flex gap-5 animate-scroll hover:animation-paused">
             {infiniteScrollTechTags.map((tech, index) => (
-            <div key={index} className="technologies__item flex-shring-0">
-              <TechTag key={index} name={tech}/>
-            </div>
+              <div key={index} className="technologies__item flex-shring-0">
+                <TechTag key={index} name={tech} />
+              </div>
             ))}
           </div>
         </section>
@@ -34,7 +47,7 @@ export default function Resume() {
       </section>
       <section>
         <div className="w-48">
-          <Image 
+          <Image
             src={Nicolas}
             alt="Nicolas Gomes Guadagno"
             className="rounded-lg"
@@ -42,5 +55,5 @@ export default function Resume() {
         </div>
       </section>
     </div>
-  )
+  );
 }

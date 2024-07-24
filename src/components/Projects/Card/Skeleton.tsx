@@ -12,7 +12,10 @@ export default function ProjectCardSkeleton() {
           </div>
           <div className="flex gap-3 flex-wrap mt-5">
             {[...Array(3)].map((_, index) => (
-              <div key={index} className="w-20 h-8 bg-gray-300 dark:bg-gray-700 rounded"></div>
+              <div
+                key={index}
+                className="w-20 h-8 bg-gray-300 dark:bg-gray-700 rounded"
+              ></div>
             ))}
           </div>
         </section>

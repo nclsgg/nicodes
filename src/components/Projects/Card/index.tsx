@@ -1,12 +1,12 @@
-import Image from "next/image";
-import TechTag from "../../TechTag";
+import Image from 'next/image';
+import TechTag from '../../TechTag';
 
 interface ProjectCardProps {
-  name: string,
-  description: string,
-  tags: string[],
-  url: string,
-  image: string,
+  name: string;
+  description: string;
+  tags: string[];
+  url: string;
+  image: string;
 }
 
 export default function ProjectCard({
@@ -18,10 +18,21 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="px-3 py-5">
-      <a href={url} target="_blank" rel="noopener noreferrer" className="flex flex-col w-full">
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex flex-col w-full"
+      >
         <div className="flex flex-col w-full transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
           <div className="relative rounded-t-lg">
-            <Image src={image} alt={name} width={800} height={800} className="transition-opacity duration-300 hover:opacity-75 rounded-t-lg" />
+            <Image
+              src={image}
+              alt={name}
+              width={800}
+              height={800}
+              className="transition-opacity duration-300 hover:opacity-75 rounded-t-lg"
+            />
           </div>
           <section className="bg-dark-white dark:bg-light-black p-2 h-full rounded-b-lg">
             <p>{name}</p>
@@ -37,5 +48,5 @@ export default function ProjectCard({
         </div>
       </a>
     </div>
-  )
+  );
 }

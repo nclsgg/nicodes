@@ -1,12 +1,12 @@
-'use client'
+'use client';
 
-import ProjectCard from "../Card";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "./styles.css";
+import ProjectCard from '../Card';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import './styles.css';
 
 interface Projects {
   name: string;
@@ -17,12 +17,10 @@ interface Projects {
 }
 
 interface ProjectsSliderProps {
-  projects: Projects[]; 
+  projects: Projects[];
 }
 
-export default function ProjectsSlider({
-  projects
-}: ProjectsSliderProps) {
+export default function ProjectsSlider({ projects }: ProjectsSliderProps) {
   return (
     <Swiper
       spaceBetween={30}

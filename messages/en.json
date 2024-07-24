@@ -1,7 +1,8 @@
 {
   "separator": {
     "projects": "Projects",
-    "aboutMe": "About me"
+    "aboutMe": "About me",
+    "contactMe": "Contacts"
   },
   "resume": {
     "hardSkills": "Over 4 years of experience in developing websites, APIs, services, and scripts, with the most widely used technologies in the market, including React, Golang, and NodeJS. I stand out for my excellent communication skills and quick learning ability, always striving to innovate and optimize solutions.",
@@ -19,6 +20,21 @@
     "communication": {
       "title": "Communication",
       "content": "One of my greatest learnings in my career has been communication. Whether it's speaking with other developers, presenting what the team has accomplished, or negotiating project delivery estimates, communication is key to a good work environment."
+    }
+  },
+  "contact": {
+    "title": "Contact me",
+    "content": "If you have any questions or would like to know more about my work, feel free to contact me through the form below or by email. I will be happy to help you!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "error": {
+        "name": "Please enter your name.",
+        "email": "Please enter a valid email.",
+        "message": "Please enter a message."
+      }
     }
   }
 }

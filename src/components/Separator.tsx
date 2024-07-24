@@ -1,10 +1,8 @@
 interface SeparatorProps {
-  name?: string
+  name?: string;
 }
 
-export default function Separator({
-  name = '',
-}: SeparatorProps) {
+export default function Separator({ name = '' }: SeparatorProps) {
   return (
     <div className="flex items-center justify-center">
       <div className="flex items-center my-4 w-2/3 md:w-full">
@@ -13,5 +11,5 @@ export default function Separator({
         <div className="flex-grow border-t border-gray-300"></div>
       </div>
     </div>
-  )
+  );
 }
