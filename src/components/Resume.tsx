@@ -24,7 +24,10 @@ export default function Resume() {
           </h1>
         </section>
         <section className="w-full inline-flex flex-nowrap">
-          <ul x-ref="technologies" className="grid grid-cols-2 sm:grid-cols-3 xl:flex gap-5 w-full">
+          <ul
+            x-ref="technologies"
+            className="grid grid-cols-2 sm:grid-cols-3 xl:flex gap-5 w-full"
+          >
             {techs.map((tech, index) => (
               <li key={index} className="technologies__item flex flex-shrink-0">
                 <TechTag key={index} name={tech} />

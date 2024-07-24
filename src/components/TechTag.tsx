@@ -26,9 +26,7 @@ export default function TechTag({ name, size = 'sm' }: TechTagProps) {
           <div
             className={`flex w-full items-center gap-2 ${color} px-2 py-1 rounded-full text-white`}
           >
-            <div className="drop-shadow-text">
-              {icon}
-            </div>
+            <div className="drop-shadow-text">{icon}</div>
             <span className={`text-${size} drop-shadow-text`}>{name}</span>
           </div>
         </a>

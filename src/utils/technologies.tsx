@@ -208,5 +208,5 @@ export function getTechnologiesByType(type: string | null) {
   if (!type) {
     return Object.values(technologiesInfo);
   }
-  return Object.values(technologiesInfo).filter(tech => tech.type === type);
+  return Object.values(technologiesInfo).filter((tech) => tech.type === type);
 }
