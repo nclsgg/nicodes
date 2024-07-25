@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from '@vercel/analytics/react';
 
 const robotoMono = Roboto_Mono({ subsets: ['latin'], weight: ['400', '700'] });
 
