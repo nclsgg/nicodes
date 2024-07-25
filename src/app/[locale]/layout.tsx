@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
+import { Analytics } from "@vercel/analytics/react"
 
 const robotoMono = Roboto_Mono({ subsets: ['latin'], weight: ['400', '700'] });
 
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
         <div className="flex flex-col w-full 2xl:w-[1080px]">
           <NextIntlClientProvider messages={messages}>
             <SpeedInsights />
+            <Analytics />
             <Providers>
               <Header />
               {children}
