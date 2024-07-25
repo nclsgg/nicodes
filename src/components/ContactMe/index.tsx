@@ -5,7 +5,7 @@ export default function ContactMe() {
   const t = useTranslations('contact');
 
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-10">
+    <div className="flex flex-col lg:flex-row lg:justify-between items-start gap-10">
       <div className="contact-me flex flex-col lg:w-1/3">
         <h2 className="sectionTitle font-bold text-ncls-purple">
           {t('title')}
