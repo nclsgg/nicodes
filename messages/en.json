@@ -2,7 +2,7 @@
   "separator": {
     "projects": "Projects",
     "aboutMe": "About me",
-    "contactMe": "Contacts",
+    "contact": "Contacts",
     "technologies": "Technologies"
   },
   "resume": {
@@ -29,10 +29,23 @@
     "form": {
       "name": "Name",
       "email": "Email",
+      "subject": "Subject",
       "message": "Message",
       "send": "Send",
+      "sending": "Sending...",
+      "response": {
+        "success": "E-mail sent successfully!",
+        "error": "An error occurred while sending the e-mail. Please try again later."
+      },
       "error": {
-        "name": "Please enter your name.",
+        "name": {
+          "required": "Please enter your name.",
+          "maxLength": "Name must be less than 30 characters."
+        },
+        "subject": {
+          "required": "Please enter a subject.",
+          "maxLength": "Subject must be less than 60 characters."
+        },
         "email": "Please enter a valid email.",
         "message": "Please enter a message."
       }

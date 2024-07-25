@@ -21,7 +21,7 @@ export default function TechnologiesMobile() {
         {Array.from({ length: Math.ceil(technologies.length / 6) }).map(
           (_, slideIndex) => (
             <SwiperSlide key={slideIndex}>
-              <div className="grid grid-cols-2 gap-5 items-center justify-items-center">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 items-center justify-items-center">
                 {technologies
                   .slice(slideIndex * 6, slideIndex * 6 + 6)
                   .map((tech, index) => (

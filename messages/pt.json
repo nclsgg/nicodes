@@ -29,10 +29,23 @@
     "form": {
       "name": "Nome",
       "email": "Email",
+      "subject": "Assunto",
       "message": "Mensagem",
       "send": "Enviar",
+      "sending": "Enviando...",
+      "response": {
+        "success": "E-mail enviado com sucesso!",
+        "error": "Ocorreu um erro ao enviar o e-amil. Por favor, tente novamente mais tarde."
+      },
       "error": {
-        "name": "Por favor, insira seu nome.",
+        "name": {
+          "required": "Por favor, insira seu nome.",
+          "maxLength": "O nome deve ter menos de 30 caracteres."
+        },
+        "subject": {
+          "required": "Por favor, insira um assunto.",
+          "maxLength": "O assunto deve ter menos de 60 caracteres."
+        },
         "email": "Por favor, insira um email válido.",
         "message": "Por favor, insira uma mensagem."
       }

@@ -46,6 +46,7 @@ export default function Resume() {
             src={Nicolas}
             alt="Nicolas Gomes Guadagno"
             className="rounded-lg"
+            placeholder="blur"
           />
         </div>
       </section>

@@ -31,6 +31,8 @@ export default function ProjectCard({
               alt={name}
               width={800}
               height={800}
+              placeholder="blur"
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABKUlEQVQ4jY2TsUoDQRSG"
               className="transition-opacity duration-300 hover:opacity-75 rounded-t-lg"
             />
           </div>

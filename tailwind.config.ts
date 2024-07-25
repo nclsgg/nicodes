@@ -64,13 +64,13 @@ const config: Config = {
     function ({ addComponents }: { addComponents: Function }) {
       addComponents({
         '.title': {
-          '@apply text-xl xl:text-4xl md:text-3xl sm:text-2xl': {}
+          '@apply text-2xl xl:text-4xl sm:text-3xl': {}
         },
         '.subtitle': {
-          '@apply text-sm xl:text-2xl md:text-xl sm:text-lg': {}
+          '@apply text-lg xl:text-2xl md:text-xl sm:text-xl': {}
         },
         '.sectionTitle': {
-          '@apply text-xl xl:text-3xl md:text-2xl sm:text-xl': {}
+          '@apply text-xl xl:text-3xl sm:text-2xl': {}
         }
       });
     },
