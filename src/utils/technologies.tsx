@@ -65,7 +65,7 @@ export const technologiesInfo: ITechnologiesInfo = {
   React: {
     name: 'React',
     icon: <SiReact />,
-    color: 'bg-blue-800', // Escurecido para melhor contraste
+    color: 'bg-blue-700', // Escurecido para melhor contraste
     url: 'https://reactjs.org',
     type: 'frontend',
   },
@@ -93,7 +93,7 @@ export const technologiesInfo: ITechnologiesInfo = {
   TypeScript: {
     name: 'TypeScript',
     icon: <SiTypescript />,
-    color: 'bg-blue-900', // Escurecido para melhor contraste
+    color: 'bg-blue-700', // Escurecido para melhor contraste
     url: 'https://www.typescriptlang.org',
     type: 'frontend',
   },
@@ -114,7 +114,7 @@ export const technologiesInfo: ITechnologiesInfo = {
   'Node.js': {
     name: 'Node.js',
     icon: <SiNodedotjs />,
-    color: 'bg-green-700', // Escurecido para melhor contraste
+    color: 'bg-green-600', // Escurecido para melhor contraste
     url: 'https://nodejs.org',
     type: 'backend',
   },
@@ -135,14 +135,14 @@ export const technologiesInfo: ITechnologiesInfo = {
   Golang: {
     name: 'Golang',
     icon: <SiGo />,
-    color: 'bg-blue-600', // Escurecido para melhor contraste
+    color: 'bg-blue-700', // Escurecido para melhor contraste
     url: 'https://golang.org',
     type: 'backend',
   },
   Python: {
     name: 'Python',
     icon: <SiPython />,
-    color: 'bg-yellow-600', // Escurecido para melhor contraste
+    color: 'bg-yellow-700', // Escurecido para melhor contraste
     url: 'https://www.python.org',
     type: 'backend',
   },

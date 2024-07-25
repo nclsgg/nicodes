@@ -84,6 +84,7 @@ const config: Config = {
     'bg-yellow-700',
     'bg-blue-600',
     'bg-green-700',
+    'bg-green-600',
     'bg-black',
     'bg-red-700', 
     'bg-yellow-600', 
