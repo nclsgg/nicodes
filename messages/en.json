@@ -24,8 +24,8 @@
     }
   },
   "contact": {
-    "title": "Contact me",
-    "content": "If you have any questions or would like to know more about my work, feel free to contact me through the form below or by email. I will be happy to help you!",
+    "title": "Get in Touch",
+    "content": "If you have a job proposal or would like to discuss potential opportunities, please fill out the form below. I’ll review your message and get back to you as soon as possible. I look forward to exploring potential collaborations!",
     "form": {
       "name": "Name",
       "email": "Email",

@@ -24,8 +24,8 @@
     }
   },
   "contact": {
-    "title": "Contate-me",
-    "content": "Se você tiver alguma dúvida ou gostaria de saber mais sobre meu trabalho, sinta-se à vontade para entrar em contato através do formulário abaixo ou por e-mail. Ficarei feliz em ajudá-lo!",
+    "title": "Entre em Contato",
+    "content": "Se você tem uma proposta de emprego ou gostaria de discutir oportunidades profissionais, por favor, preencha o formulário abaixo. Vou revisar sua mensagem e responder o mais breve possível. Estou ansioso para explorar possíveis colaborações!",
     "form": {
       "name": "Nome",
       "email": "Email",

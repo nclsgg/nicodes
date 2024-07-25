@@ -45,7 +45,7 @@ export default function ContactForm() {
   });
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex w-full items-center justify-center">
       <form onSubmit={onSubmit} className="flex flex-col w-full gap-6">
         <div className="input-div">
           <input
