@@ -1,30 +1,14 @@
 import dynamic from 'next/dynamic';
 import ProjectCardSkeleton from './Card/Skeleton';
-import prisma from '@/prisma';
 import { useLocale } from 'next-intl';
+import { projectsEN, projectsPT } from '@/utils/projects';
 
 export default async function Projects() {
   const locale = useLocale();
 
-  const projects =
-    locale === 'en'
-      ? await prisma.projectsEN.findMany()
-      : await prisma.projectsPT.findMany();
+  const projects = locale === 'en' ? projectsEN : projectsPT;
 
-  // console.log(projects);
-
-  const projectsArr = projects.map((project) => {
-    return {
-      name: project.name,
-      description: project.description,
-      tags: project.tags.split(','),
-      date: project.date,
-      url: project.url,
-      image: project.image,
-    };
-  });
-
-  projectsArr.sort((a, b) => {
+  projects.sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
 
@@ -39,7 +23,7 @@ export default async function Projects() {
 
   return (
     <div className="flex justify-center">
-      <DynamicProjectsSlider projects={projectsArr} />
+      <DynamicProjectsSlider projects={projects} />
     </div>
   );
 }

@@ -4,12 +4,11 @@
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@prisma/client": "^5.17.0",
     "@types/nodemailer": "^6.4.15",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
     "@vercel/postgres": "^0.9.0",
@@ -20,7 +19,6 @@
     "next-intl": "^3.17.2",
     "next-themes": "^0.3.0",
     "nodemailer": "^6.9.14",
-    "prisma": "^5.17.0",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.52.1",
