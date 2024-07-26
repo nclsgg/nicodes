@@ -1,10 +1,10 @@
 export const projectsEN = [
   {
-    name: 'API in Go',
+    name: 'Go simple API',
     description: 'An API in Go with CRUD operations for email management.',
     tags: ['Golang', 'MongoDB', 'Docker'],
     date: '2024-07-22T03:23:37Z',
-    url: '#',
+    url: 'https://github.com/nclsgg/go-simple-api',
     image: 'https://i.ibb.co/9s2Ct63/GoAPI.png',
   },
   {
@@ -29,11 +29,11 @@ export const projectsEN = [
 
 export const projectsPT = [
   {
-    name: 'API em Go',
+    name: 'Go simple API',
     description: 'Uma API em Go com CRUD de emails para consumo',
     tags: ['Golang', 'MongoDB', 'Docker'],
     date: '2024-07-22T03:23:37Z',
-    url: '#',
+    url: 'https://github.com/nclsgg/go-simple-api',
     image: 'https://i.ibb.co/9s2Ct63/GoAPI.png',
   },
   {
